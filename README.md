@@ -1,11 +1,11 @@
 # RBC Dynamic Search
 
-RB Dynamic Search is a Restful Webservice application, using Spring JPA and using h2database inmemory database as the back end.
+RB Dynamic Search is a Restful Webservice application, using Spring JPA and using h2database in-memory database as the back end.
 The critical logic on the Dynamic Search is using recursive algorithm to find ultimate parent.
 
 ## App Usage
 
-RB Dynamic Search is a spring boot application and can be used on PCF or micro service friendly enviorment.
+RB Dynamic Search is a spring boot application and can be deployed on PCF or micro service friendly enviorment.
 
 ## Checkout and Run
 
@@ -53,5 +53,3 @@ mvn eclipse:eclipse
 To run the unit test, please exicute the below command. Please not that the app is designed to run on Java 1.7.
 
 mvn test
-
-Please make necessary changes to the records.csv and records.xml to test different scenarios.
